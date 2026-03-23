@@ -3,7 +3,7 @@
 <h3 align="center">Software Engineer · MS Data Science @ UMBC · Building things that ship to production</h3>
 
 <p align="center">
-  Results-driven engineer with 2+ years of production experience building high-throughput backend systems, NLP pipelines, and full-stack AI applications. I care about engineering that creates real business impact — not just code that looks good in a repo.
+  Results-driven engineer with 2+ years of production experience building high-throughput backend systems, NLP pipelines, and full-stack AI applications. I care about engineering that creates real business impact, not just code that looks good in a repo.
 </p>
 
 <p align="center">
@@ -129,18 +129,10 @@
 | B.Tech Information Technology | Institute of Advanced Research, India | 7.82 / 10 | April 2023 |
 
 ---
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=parthvaja&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthvaja&layout=compact&theme=tokyonight&hide_border=true" height="160" />
-</p>
-
 ---
 
 <p align="center">
-  <i>Open to Summer 2025 SDE / MLE Internship opportunities · F-1 CPT eligible · No sponsorship needed</i>
+  <i>Open to Summer 2026 SDE / MLE Internship opportunities · F-1 CPT eligible · No sponsorship needed</i>
 </p>
 
 <p align="center">
