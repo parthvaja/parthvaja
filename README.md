@@ -6,7 +6,11 @@
   Results-driven engineer with 2+ years of production experience building high-throughput backend systems, NLP pipelines, and full-stack AI applications. I care about engineering that creates real business impact, not just code that looks good in a repo.
 </p>
 
+
 <p align="center">
+  <a href="https://parthvaja.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-parthvaja.dev-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
   <a href="https://linkedin.com/in/parth-vaja" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-parth--vaja-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
@@ -136,5 +140,6 @@
 </p>
 
 <p align="center">
+  <a href="https://parthvaja.dev">Check out my portfolio →</a> &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/parth-vaja">Let's connect on LinkedIn →</a>
 </p>
