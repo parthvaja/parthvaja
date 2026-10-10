@@ -1,145 +1,75 @@
-<h1 align="center">Hi 👋, I'm Parth Vaja</h1>
+# Parth Vaja
 
-<h3 align="center">Software Engineer · MS Data Science @ UMBC · Building things that ship to production</h3>
+**Software Engineer · MS Data Science (CS track) @ UMBC · 4.0 GPA**
 
-<p align="center">
-  Results-driven engineer with 2+ years of production experience building high-throughput backend systems, NLP pipelines, and full-stack AI applications. I care about engineering that creates real business impact, not just code that looks good in a repo.
-</p>
+2.5 years of production engineering at [Knovos](https://www.knovos.com/) building backend systems, NLP pipelines, and distributed data infrastructure in Java, C#, and Python. Now building AI systems that ship to real users, not just notebooks.
 
-
-<p align="center">
-  <a href="https://parthvaja.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-parthvaja.dev-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/parth-vaja" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-parth--vaja-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:parthmv1@umbc.edu">
-    <img src="https://img.shields.io/badge/Email-parthmv1@umbc.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/parthvaja" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-parthvaja-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+[Portfolio](https://parthvaja.dev) · [LinkedIn](https://linkedin.com/in/parth-vaja) · [Email](mailto:parthmv1@umbc.edu)
 
 ---
 
-## 🙋 About Me
+## What I've Built
 
-- 🔭 **I'm currently working on** — MindsetLens, an adaptive learning platform using LangChain, HuggingFace Transformers, FastAPI, and React to detect student misconceptions and deliver AI-powered teaching recommendations
-- 👯 **I'm looking to collaborate on** — full-stack AI applications, NLP/ML pipelines, distributed systems, or anything at the intersection of backend engineering and applied AI
-- 🤝 **I'm looking for** — Summer 2025 SDE / MLE internship opportunities in systems, data engineering, or applied AI
-- 🌱 **I'm currently learning** — advanced ML (PyTorch, deep learning architectures) and Big Data platforms (Apache Spark) through my MS in Data Science at UMBC
-- 💬 **Ask me about** — production REST APIs, OCR pipelines, distributed ETL with Hadoop, LangChain agentic workflows, Redis caching, or how to rescue a failing system 48 hours before a court deadline
-- ⚡ **Fun fact** — I replaced a $200K/year third-party OCR vendor with an in-house Microsoft OCR integration — and it was more accurate than the original
+### [Verdict](https://github.com/parthvaja/verdict) — Multi-Agent AI Adjudication System
+Two LLM advocate agents argue opposing positions before an AI judge issues a structured verdict with confidence scoring. Built to solve the problem of sycophantic convergence: agents run on separate providers (Anthropic + OpenAI) so they can't silently agree with each other. Eval harness gates every prompt change on judge calibration checks for false-balance and overconfidence.
 
----
+`Next.js` `TypeScript` `FastAPI` `Python` `Anthropic API` `OpenAI API` `SSE streaming` `Pydantic` `Zod`
 
-## 🛠️ Tech Stack
+### [MindsetLens](https://github.com/parthvaja/mindsetlens) — AI-Powered Adaptive Learning Platform
+RAG application that classifies student explanations into misconception categories and delivers personalized teaching recommendations. Piloted with 8 teachers and 200+ students; teacher approval of AI recommendations went from 60% to 85% after redesigning how outputs were grounded.
 
-**Languages**
+`Python` `FastAPI` `React` `PostgreSQL` `LangChain` `HuggingFace` `Claude API` `Docker`
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+**82% F1-score** · **sub-200ms inference** · **200+ active users** · **90% pilot satisfaction**
 
-**Backend & Systems**
+### [AI Code Review Bot](https://github.com/parthvaja/cloudflare-ai-code-review) — Agentic Code Evaluation on Cloudflare Workers
+Production tool that generates AND critically evaluates AI-produced code before surfacing it. Uses Durable Objects for stateful review sessions with observability into the agent loop. Built to work within Workers isolate constraints.
 
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+`TypeScript` `Cloudflare Workers` `Durable Objects` `React`
 
-**ML / AI**
+### [Product Intelligence Service](https://github.com/parthvaja/solumina-knowledge-graph) — Knowledge Graph + MCP Server
+FastAPI service backed by Neo4j that exposes a Solumina product-intelligence knowledge graph through an MCP server for AI agent consumption.
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+`FastAPI` `Neo4j` `MCP` `Python`
 
-**Big Data & Search**
-
-![Hadoop](https://img.shields.io/badge/Apache_Hadoop-66CCFF?style=flat-square&logo=apache-hadoop&logoColor=black)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white)
-![Apache Solr](https://img.shields.io/badge/Apache_Solr-D9411E?style=flat-square&logo=apache&logoColor=white)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
-
-**Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+### [parthvaja.dev](https://parthvaja.dev) — Portfolio
+Built from scratch. Next.js 15, React 19, TypeScript, TailwindCSS. Responsive, no template.
 
 ---
 
-## 🚀 Featured Projects
+## Production Experience
 
-### 🧠 MindsetLens — Adaptive Learning Mindset Detector
-> Full-stack AI application that classifies student explanations into misconception categories and delivers personalized teaching recommendations.
+**BeOne Medicines** (formerly BeiGene) · AI & Data Intern · Summer 2026, San Carlos, CA
 
-**Stack:** Python · FastAPI · React · PostgreSQL · TensorFlow · LangChain · HuggingFace · Docker · Anthropic Claude API
+Built a data-lineage and impact-analysis system over Amazon Redshift. Parsed stored procedures into ASTs, extracted table-level dependencies, and constructed a 740-node / 2,540-edge dependency graph. Made an architectural call: graph traversal over vector embeddings for provably complete impact analysis in a regulated domain. RAG layer grounded in the graph, surfaced via Microsoft Copilot Studio. Deployed on EC2 within IQVIA's AWS infrastructure.
 
-- NLP pipeline classifying student responses into 8 misconception categories — **82% F1-score**
-- Sub-200ms inference with LangChain agentic workflows + Claude & OpenAI APIs
-- Deployed with Docker + CI/CD · Piloted with **8 teachers, 200+ students · 90% satisfaction rate**
+**Knovos** · Software Engineer (promoted from Intern) · Jan 2023 to Jul 2025
 
----
-
-### 📊 Tuition Payoff Optimizer
-> Full-stack financial planning tool with Monte Carlo simulation for tuition payoff projections.
-
-**Stack:** FastAPI · Python · React · TypeScript · Docker · Chart.js
-
-- Monte Carlo simulation engine exposed via REST API
-- Interactive Chart.js visualizations for scenario modeling and financial projections
+Shipped production systems in legal tech / eDiscovery for 2.5 years:
+- Debugged a race condition in an undocumented multithreaded C# system 48 hours before a court deadline. Zero crashes after the fix.
+- Built data ingestion handling 5M+ files at 99.5% uptime with 40% throughput improvement.
+- Optimized REST APIs serving 2M+ records: 40% throughput increase, 35% latency reduction (Redis, async, query tuning).
+- Replaced a $200K/year third-party OCR vendor with an in-house pipeline: 98% accuracy, 90% faster, 1M+ files/year.
+- Built a document redaction microservice: 1M+ files/year, $150K licensing cost eliminated.
+- Production NLP for PII extraction: 94% accuracy across 60+ entity types, 100K+ legal documents.
+- Distributed ETL with Hadoop MapReduce: 70% processing time reduction over 100K+ documents.
 
 ---
 
-## 💼 Work Experience Highlights
+## What I Work With
 
-| Company | Role | Impact |
-|---|---|---|
-| Knovos India | Software Engineer | Built systems processing **5M+ files** at 99.5% uptime |
-| Knovos India | Software Engineer | Replaced OCR vendor → **$200K annual savings**, 98% accuracy |
-| Knovos India | Software Engineer | API optimization → **40% throughput ↑, 35% latency ↓** |
-| Knovos India | Intern | NLP PII extraction → **94% accuracy across 60+ entity types** |
-| Knovos India | Intern | Hadoop ETL pipeline → **70% processing time reduction** |
+**Day-to-day:** Python, Java, C#, TypeScript, SQL, FastAPI, Spring Boot, .NET, React, PostgreSQL, Redis, Docker, AWS, Git
+
+**AI/ML:** LangChain, HuggingFace, RAG, prompt engineering, multi-agent orchestration, eval harnesses, Anthropic API, OpenAI API, scikit-learn, TensorFlow
+
+**Data:** Hadoop MapReduce, Apache Solr, Amazon Redshift, MongoDB, Elasticsearch, Neo4j
 
 ---
 
-## 🎓 Education
+## Education
 
-| Degree | Institution | GPA | Year |
-|---|---|---|---|
-| MS Data Science | University of Maryland, Baltimore County (UMBC) | 4.0 / 4.0 | Expected May 2027 |
-| B.Tech Information Technology | Institute of Advanced Research, India | 7.82 / 10 | April 2023 |
+**MS Data Science (Computer Science track)** — University of Maryland, Baltimore County · 4.0 GPA · May 2027
 
----
----
+Coursework: Operating Systems, Data Structures, Algorithms, Databases, Machine Learning, Big Data Platforms, Statistical Analysis
 
-<p align="center">
-  <i>Open to Summer 2026 SDE / MLE Internship opportunities · F-1 CPT eligible · No sponsorship needed</i>
-</p>
-
-<p align="center">
-  <a href="https://parthvaja.dev">Check out my portfolio →</a> &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/parth-vaja">Let's connect on LinkedIn →</a>
-</p>
+**B.Tech Information Technology** — Institute of Advanced Research · April 2023
